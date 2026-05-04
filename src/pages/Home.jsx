@@ -153,8 +153,7 @@ const Home = () => {
                   letterSpacing: '0',
                 }}
               >
-                Bringing the Bold Flavors <br className="hidden sm:block" />
-                of South India to Tampa, USA
+                Bringing the Bold Flavors of Hyderabadi Cuisine to Tampa, USA
               </p>
             </div>
           </motion.div>
