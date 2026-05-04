@@ -154,7 +154,7 @@ const Home = () => {
                 }}
               >
                 Bringing the Bold Flavors <br className="hidden sm:block" />
-                of South India to the USA
+                of South India to Tampa, USA
               </p>
             </div>
           </motion.div>
