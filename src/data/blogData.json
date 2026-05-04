@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Offers",
+    "date": "28-03-2026",
+    "image": "/event1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Weekly Specials",
+    "date": "12-04-2026",
+    "image": "/event2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "North Indian Food Feast",
+    "date": "02-05-2026",
+    "image": "/event3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Buy 1 Get 1 Offer",
+    "date": "30-06-2026",
+    "image": "/event4.jpg"
+  }
+]

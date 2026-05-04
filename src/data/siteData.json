@@ -1,0 +1,59 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Fish Finger",
+      "category": "Appetizers",
+      "price": 15.99,
+      "description": "Crispy fried fish strips served with dip.",
+      "image": "/menu1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Biryani",
+      "category": "Entrees",
+      "price": 26.99,
+      "description": "Aromatic basmati rice cooked with tender chicken and traditional spices.",
+      "image": "/menu2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gulab Jamun",
+      "category": "Desserts",
+      "price": 7.49,
+      "description": "Soft fried milk dumplings soaked in sweet syrup.",
+      "image": "/menu3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Orange Mojito",
+      "category": "Beverage",
+      "price": 8.99,
+      "description": "Refreshing orange drink with mint and citrus flavors.",
+      "image": "/menu4.jpg"
+    }
+  ],
+  "categories": ["All Foods", "Appetizers", "Entrees", "Desserts", "Beverage"],
+  "features": [
+    {
+      "title": "Best Catering",
+      "description": "Delicious South Indian catering for events and celebrations.",
+      "icon": "/best%20catering.png"
+    },
+    {
+      "title": "Premium Quality",
+      "description": "We use fresh ingredients and authentic spices to deliver premium quality dishes.",
+      "icon": "/premiuim%20quality.png"
+    },
+    {
+      "title": "Freshly Served",
+      "description": "Every dish is freshly prepared and served hot.",
+      "icon": "/freshey%20served.png"
+    },
+    {
+      "title": "Best Chefs",
+      "description": "Expert chefs preparing authentic and flavorful dishes.",
+      "icon": "/best%20chefs.png"
+    }
+  ]
+}
