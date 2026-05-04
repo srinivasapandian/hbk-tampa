@@ -39,6 +39,7 @@ const Footer = () => {
               <li><a href="/#menu" className="hover:text-[#FFD700] transition-colors">Menu</a></li>
               <li><a href="/#services" className="hover:text-[#FFD700] transition-colors">Catering</a></li>
               <li><a href="/#events" className="hover:text-[#FFD700] transition-colors">Blog</a></li>
+              <li><a href="/#gallery" className="hover:text-[#FFD700] transition-colors">Buffet</a></li>
               <li><a href="/#contact-us" className="hover:text-[#FFD700] transition-colors">Contact Us</a></li>
             </ul>
           </div>
