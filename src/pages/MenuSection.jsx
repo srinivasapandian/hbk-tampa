@@ -3,14 +3,14 @@ import "./MenuSection.css";
 import { allCategories, menuGrouped } from "../data/menuData";
 
 const NON_VEG_KEYWORDS = [
-  "chicken","mutton","fish","prawn","shrimp","egg","lamb","beef",
-  "goat","seafood","kheema","keema","shawarma","crab","lobster",
+  "chicken", "mutton", "fish", "prawn", "shrimp", "egg", "lamb", "beef",
+  "goat", "seafood", "kheema", "keema", "shawarma", "crab", "lobster",
 ];
 
 function isNonVegItem(item) {
   if (item.tags?.includes("non-veg")) return true;
   if (item.tags?.includes("veg") && !NON_VEG_KEYWORDS.some(k => item.name.toLowerCase().includes(k))) return false;
-  
+
   if (item.category.toUpperCase().includes("NON VEG")) return true;
   const nameL = item.name.toLowerCase();
   if (nameL.startsWith("veg ")) return false;
@@ -101,26 +101,35 @@ export default function MenuSection({ isMobile: isMobileProp, standalone = false
 
   return (
     <>
-      {/* Title — handles top spacing to clear the absolute navbar */}
-      <div className={`menu-title-area${standalone ? " menu-title-area-standalone" : ""}`}>
-        <h2 className="menu-title">Menu</h2>
-      </div>
+      {/* Spacer to clear the absolute navbar when standalone */}
+      {standalone && <div className="menu-title-area menu-title-area-standalone" />}
 
       {/* Mobile: original dropdown | Desktop: sticky pill tabs */}
       {isMobile ? (
         <div ref={dropdownRef} className="menu-dropdown-outer">
-          <button
-            className="menu-dropdown-btn"
-            onClick={() => setDropdownOpen((o) => !o)}
-            aria-haspopup="listbox"
-            aria-expanded={dropdownOpen}
-          >
-            <span>{activeCategory}</span>
-            <span
-              className={`menu-dropdown-chevron${dropdownOpen ? " menu-dropdown-chevron-open" : ""}`}
-              aria-hidden="true"
-            />
-          </button>
+          <div className="menu-mobile-header-inner">
+            <button
+              className="menu-dropdown-btn"
+              onClick={() => setDropdownOpen((o) => !o)}
+              aria-haspopup="listbox"
+              aria-expanded={dropdownOpen}
+            >
+              <span>{activeCategory}</span>
+              <span
+                className={`menu-dropdown-chevron${dropdownOpen ? " menu-dropdown-chevron-open" : ""}`}
+                aria-hidden="true"
+              />
+            </button>
+            <div className="menu-mobile-search">
+              <input
+                type="search"
+                className="menu-search-input"
+                placeholder="Search dishes"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+            </div>
+          </div>
           {dropdownOpen && (
             <ul className="menu-dropdown-list" role="listbox">
               {allCategories.map((cat) => (
@@ -163,15 +172,17 @@ export default function MenuSection({ isMobile: isMobileProp, standalone = false
         style={isMobile ? { padding: "0 16px" } : undefined}
       >
         <div className="menu-right">
-          <div className="menu-controls">
-            <input
-              type="search"
-              className="menu-search-input"
-              placeholder="Search dishes"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-            />
-          </div>
+          {!isMobile && (
+            <div className="menu-controls">
+              <input
+                type="search"
+                className="menu-search-input"
+                placeholder="Search dishes"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+            </div>
+          )}
 
           <div ref={itemsTopRef} className="menu-items-wrapper">
             {filteredGroups.map((group) => (
