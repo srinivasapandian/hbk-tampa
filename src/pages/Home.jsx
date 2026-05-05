@@ -14,6 +14,18 @@ import logo35 from '../asserts/35logo.png';
 import logoMain from '../asserts/house-of-biryani.png';
 import vector from '../asserts/Vector.png';
 
+import menu1 from '../asserts/menu1.jpg';
+import menu2 from '../asserts/menu2.jpg';
+import menu3 from '../asserts/menu3.jpg';
+import menu4 from '../asserts/menu4.jpg';
+
+const menuImageMap = {
+  '/menu1.jpg': menu1,
+  '/menu2.jpg': menu2,
+  '/menu3.jpg': menu3,
+  '/menu4.jpg': menu4,
+};
+
 const baseGalleryItems = [
   { id: 1, image: gallery1, name: 'South Indian Thali' },
   { id: 2, image: gallery2, name: 'Chicken Tikka Kebab' },
@@ -324,7 +336,7 @@ const Home = () => {
                     }`}
                 >
                   <img
-                    src={item.image}
+                    src={menuImageMap[item.image] || item.image}
                     alt={item.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
