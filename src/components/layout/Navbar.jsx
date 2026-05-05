@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X } from 'lucide-react';
 import logo35 from '../../asserts/35logo.png';
@@ -31,9 +32,9 @@ const Navbar = () => {
   }, [isOpen]);
 
   const navLinks = [
-    { name: 'Home', path: '/#home' },
+    { name: 'Home', path: '/' },
     { name: 'About Us', path: '/#about-us' },
-    { name: 'Menu', path: '/#menu' },
+    { name: 'Menu', path: '/menu' },
     { name: 'Catering', path: '/#services' },
     { name: 'Buffet', path: '/#gallery' },
     { name: 'Contact Us', path: '/#contact-us' },
@@ -45,8 +46,8 @@ const Navbar = () => {
         {/* Mobile View Top Bar */}
         <div className={`w-full flex flex-col md:hidden relative items-center transition-all duration-500 ${scrolled ? 'h-14' : 'pt-6 pb-2'}`}>
           <div className="flex w-full items-center justify-center relative">
-            <a
-              href="/#home"
+            <Link
+              to="/"
               className={`flex items-center justify-center z-[60] transition-all duration-500 ${isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100 translate-y-0'}`}
             >
               <img
@@ -54,7 +55,7 @@ const Navbar = () => {
                 alt="House of Biryani Logo"
                 className={`object-contain transition-all duration-500 ${scrolled ? 'h-12 w-12' : 'h-32 w-32'}`}
               />
-            </a>
+            </Link>
             <button
               className="absolute right-0 text-[#D8AA3E] p-2 hover:text-[#FFD700] transition-all duration-500 opacity-100 translate-y-0 z-[60]"
               onClick={() => setIsOpen(!isOpen)}
@@ -83,7 +84,7 @@ const Navbar = () => {
 
         {/* Desktop View Logos */}
         <div className={`hidden md:flex flex-col items-center justify-center transition-all duration-500 origin-top overflow-hidden ${scrolled ? 'h-0 opacity-0 scale-y-0' : 'h-[150px] opacity-100 scale-y-100'}`}>
-          <a href="/#home" className="flex-shrink-0 z-[60]">
+          <Link to="/" className="flex-shrink-0 z-[60]">
             <div className="flex items-center md:gap-10">
               <img
                 src="/halal.png"
@@ -101,7 +102,7 @@ const Navbar = () => {
                 className="md:h-20 md:w-20 lg:h-24 lg:w-24 object-contain"
               />
             </div>
-          </a>
+          </Link>
         </div>
 
         <div
@@ -121,13 +122,13 @@ const Navbar = () => {
         >
           <div className="flex items-center gap-[10px] w-full justify-between">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.path}
+                to={link.path}
                 className="text-[20px] leading-[100%] tracking-[0] font-normal [font-family:'Bellefair',serif] text-white/95 hover:text-[#FFD700] transition-colors"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
             <button className="text-[20px] leading-[100%] tracking-[0] font-normal [font-family:'Bellefair',serif] text-white px-4 py-1.5 rounded-full border border-[#D8AA3E] hover:bg-[#D8AA3E]/10 transition-colors">
               Order Online
@@ -153,13 +154,13 @@ const Navbar = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 + index * 0.1 }}
               >
-                <a
-                  href={link.path}
+                <Link
+                  to={link.path}
                   className="text-2xl font-serif text-white hover:text-[#FFD700] transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
-                </a>
+                </Link>
               </motion.div>
             ))}
             <motion.div

@@ -1,0 +1,3872 @@
+[
+  {
+    "id": "soups-hot-sour-soup-veg",
+    "name": "Hot & Sour Soup - Veg",
+    "description": "Delicious Hot & Sour Soup - Veg prepared in authentic soups style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "SOUPS",
+    "imageUrl": "soups/hot-sour-soup-veg.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "soups-hot-sour-soup-chicken",
+    "name": "Hot & Sour Soup - Chicken",
+    "description": "Delicious Hot & Sour Soup - Chicken prepared in authentic soups style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "SOUPS",
+    "imageUrl": "soups/hot-sour-soup-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "soups-naatu-kodi-soup",
+    "name": "Naatu Kodi Soup",
+    "description": "Delicious Naatu Kodi Soup prepared in authentic soups style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 8.99
+      }
+    ],
+    "category": "SOUPS",
+    "imageUrl": "soups/naatu-kodi-soup.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "soups-goat-paya-24oz",
+    "name": "Goat Paya(24oz)",
+    "description": "Delicious Goat Paya(24oz) prepared in authentic soups style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "SOUPS",
+    "imageUrl": "soups/goat-paya-24oz.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "soups-mutton-marag-24oz",
+    "name": "Mutton Marag(24oz)",
+    "description": "Delicious Mutton Marag(24oz) prepared in authentic soups style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "SOUPS",
+    "imageUrl": "soups/mutton-marag-24oz.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "soups-malai-paya-24oz",
+    "name": "Malai Paya(24oz)",
+    "description": "Delicious Malai Paya(24oz) prepared in authentic soups style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "SOUPS",
+    "imageUrl": "soups/malai-paya-24oz.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-masala-peanuts-boiled",
+    "name": "Masala Peanuts Boiled",
+    "description": "Delicious Masala Peanuts Boiled prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/masala-peanuts-boiled.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-crispy-chili-corn",
+    "name": "Crispy Chili Corn",
+    "description": "Spicy Indo-Chinese preparation with peppers, garlic, and bold sauces.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/crispy-chili-corn.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "veg-apitizers-gobi-manchurian",
+    "name": "Gobi Manchurian",
+    "description": "Crispy balls tossed in tangy Indo-Chinese Manchurian gravy.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/gobi-manchurian.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-chili-gobi",
+    "name": "Chili Gobi",
+    "description": "Spicy Indo-Chinese preparation with peppers, garlic, and bold sauces.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/chili-gobi.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "veg-apitizers-gobi-majestic",
+    "name": "Gobi Majestic",
+    "description": "Delicious Gobi Majestic prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/gobi-majestic.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-karampodi-gobi",
+    "name": "Karampodi Gobi",
+    "description": "Delicious Karampodi Gobi prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/karampodi-gobi.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-ulavacharu-gobi",
+    "name": "Ulavacharu Gobi",
+    "description": "Delicious Ulavacharu Gobi prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/ulavacharu-gobi.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-gongura-gobi",
+    "name": "Gongura Gobi",
+    "description": "Delicious Gongura Gobi prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/gongura-gobi.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-jalapeno-gobi",
+    "name": "Jalapeno Gobi",
+    "description": "Delicious Jalapeno Gobi prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/jalapeno-gobi.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-hyderabadi-paneer-65",
+    "name": "Hyderabadi Paneer 65",
+    "description": "Delicious Hyderabadi Paneer 65 prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/hyderabadi-paneer-65.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-paneer-manchurian",
+    "name": "Paneer Manchurian",
+    "description": "Crispy balls tossed in tangy Indo-Chinese Manchurian gravy.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/paneer-manchurian.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-chili-paneer",
+    "name": "Chili Paneer",
+    "description": "Spicy Indo-Chinese preparation with peppers, garlic, and bold sauces.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/chili-paneer.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "veg-apitizers-paneer-majestic",
+    "name": "Paneer Majestic",
+    "description": "Delicious Paneer Majestic prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/paneer-majestic.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-paneer-pepper-fry",
+    "name": "Paneer Pepper Fry",
+    "description": "Delicious Paneer Pepper Fry prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/paneer-pepper-fry.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "veg-apitizers-cilantro-paneer",
+    "name": "Cilantro Paneer",
+    "description": "Delicious Cilantro Paneer prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/cilantro-paneer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-karampodi-paneer",
+    "name": "Karampodi Paneer",
+    "description": "Delicious Karampodi Paneer prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/karampodi-paneer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-ulavacharu-paneer",
+    "name": "Ulavacharu Paneer",
+    "description": "Delicious Ulavacharu Paneer prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/ulavacharu-paneer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-gongura-paneer",
+    "name": "Gongura Paneer",
+    "description": "Delicious Gongura Paneer prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/gongura-paneer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-jalapeno-paneer",
+    "name": "Jalapeno Paneer",
+    "description": "Delicious Jalapeno Paneer prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/jalapeno-paneer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-chili-baby-corn",
+    "name": "Chili Baby Corn",
+    "description": "Spicy Indo-Chinese preparation with peppers, garlic, and bold sauces.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/chili-baby-corn.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "veg-apitizers-mushroom-majestic",
+    "name": "Mushroom Majestic",
+    "description": "Delicious Mushroom Majestic prepared in authentic veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/mushroom-majestic.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "veg-apitizers-vegetable-manchurian",
+    "name": "Vegetable Manchurian",
+    "description": "Crispy balls tossed in tangy Indo-Chinese Manchurian gravy.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "VEG APITIZERS",
+    "imageUrl": "veg-apitizers/vegetable-manchurian.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-hyd-chicken-65",
+    "name": "Hyd Chicken 65",
+    "description": "Delicious Hyd Chicken 65 prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/hyd-chicken-65.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-chicken-manchurian",
+    "name": "Chicken Manchurian",
+    "description": "Crispy balls tossed in tangy Indo-Chinese Manchurian gravy.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/chicken-manchurian.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-chili-chicken",
+    "name": "Chili Chicken",
+    "description": "Spicy Indo-Chinese preparation with peppers, garlic, and bold sauces.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/chili-chicken.jpg",
+    "tags": [
+      "spicy",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-chicken-majestic",
+    "name": "Chicken Majestic",
+    "description": "Delicious Chicken Majestic prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/chicken-majestic.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-pepper-chicken-fry",
+    "name": "Pepper Chicken Fry",
+    "description": "Delicious Pepper Chicken Fry prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/pepper-chicken-fry.jpg",
+    "tags": [
+      "spicy",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-cilantro-chicken",
+    "name": "Cilantro Chicken",
+    "description": "Delicious Cilantro Chicken prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/cilantro-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-chicken-555",
+    "name": "Chicken 555",
+    "description": "Delicious Chicken 555 prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/chicken-555.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-mirapakaya-kodi-vepudu-bone-in",
+    "name": "Mirapakaya Kodi Vepudu(Bone In)",
+    "description": "Delicious Mirapakaya Kodi Vepudu(Bone In) prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/mirapakaya-kodi-vepudu-bone-in.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-chicken-lollipops-5pcs",
+    "name": "Chicken Lollipops(5pcs)",
+    "description": "Delicious Chicken Lollipops(5pcs) prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/chicken-lollipops-5pcs.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-drums-of-heaven-5pcs",
+    "name": "Drums of Heaven(5pcs)",
+    "description": "Delicious Drums of Heaven(5pcs) prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/drums-of-heaven-5pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-ginger-chicken",
+    "name": "Ginger Chicken",
+    "description": "Delicious Ginger Chicken prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/ginger-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-karampodi-chicken",
+    "name": "Karampodi Chicken",
+    "description": "Delicious Karampodi Chicken prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/karampodi-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-ulavacharu-chicken",
+    "name": "Ulavacharu Chicken",
+    "description": "Delicious Ulavacharu Chicken prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/ulavacharu-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-gongura-chicken",
+    "name": "Gongura Chicken",
+    "description": "Delicious Gongura Chicken prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/gongura-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-jalapeno-chicken",
+    "name": "Jalapeno Chicken",
+    "description": "Delicious Jalapeno Chicken prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/jalapeno-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-cashew-chicken-pakoda",
+    "name": "Cashew Chicken Pakoda",
+    "description": "Delicious Cashew Chicken Pakoda prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/cashew-chicken-pakoda.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-natukodi-pepper-fry",
+    "name": "Natukodi Pepper Fry",
+    "description": "Delicious Natukodi Pepper Fry prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/natukodi-pepper-fry.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-goat-haleem",
+    "name": "Goat Haleem",
+    "description": "Delicious Goat Haleem prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/goat-haleem.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-mutton-sukka-bone-in",
+    "name": "Mutton Sukka(Bone In)",
+    "description": "Delicious Mutton Sukka(Bone In) prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/mutton-sukka-bone-in.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-talava-ghost",
+    "name": "Talava Ghost",
+    "description": "Delicious Talava Ghost prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/talava-ghost.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-raju-gari-mamsam-vepudu",
+    "name": "Raju Gari Mamsam Vepudu",
+    "description": "Delicious Raju Gari Mamsam Vepudu prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/raju-gari-mamsam-vepudu.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-boti-vepudu",
+    "name": "Boti Vepudu",
+    "description": "Delicious Boti Vepudu prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/boti-vepudu.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-apollo-fish",
+    "name": "Apollo Fish",
+    "description": "Delicious Apollo Fish prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/apollo-fish.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-malabar-tawa-fish",
+    "name": "Malabar Tawa Fish",
+    "description": "Delicious Malabar Tawa Fish prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/malabar-tawa-fish.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-andhra-fish-fry",
+    "name": "Andhra Fish Fry",
+    "description": "Delicious Andhra Fish Fry prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 20.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/andhra-fish-fry.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-hyd-shrimp-65",
+    "name": "Hyd Shrimp 65",
+    "description": "Delicious Hyd Shrimp 65 prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/hyd-shrimp-65.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-shrimp-pepper-fry",
+    "name": "Shrimp Pepper Fry",
+    "description": "Delicious Shrimp Pepper Fry prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/shrimp-pepper-fry.jpg",
+    "tags": [
+      "veg",
+      "spicy"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-jalapeno-shrimp",
+    "name": "Jalapeno Shrimp",
+    "description": "Delicious Jalapeno Shrimp prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/jalapeno-shrimp.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-karampodi-shrimp",
+    "name": "Karampodi Shrimp",
+    "description": "Delicious Karampodi Shrimp prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/karampodi-shrimp.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-ulavacharu-shrimp",
+    "name": "Ulavacharu Shrimp",
+    "description": "Delicious Ulavacharu Shrimp prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/ulavacharu-shrimp.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-gongura-shrimp",
+    "name": "Gongura Shrimp",
+    "description": "Delicious Gongura Shrimp prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/gongura-shrimp.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "non-veg-apitizers-chitti-royala-fry",
+    "name": "Chitti Royala Fry",
+    "description": "Delicious Chitti Royala Fry prepared in authentic non veg apitizers style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 18.99
+      }
+    ],
+    "category": "NON VEG APITIZERS",
+    "imageUrl": "non-veg-apitizers/chitti-royala-fry.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-spl-shawarma-paneer-chicken",
+    "name": "Spl Shawarma(Paneer/Chicken)",
+    "description": "Delicious Spl Shawarma(Paneer/Chicken) prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "price": 12.99
+      },
+      {
+        "price": 13.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/spl-shawarma-paneer-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-kheema-burji",
+    "name": "Kheema Burji",
+    "description": "Delicious Kheema Burji prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/kheema-burji.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-street-style-mutton-cutlets",
+    "name": "Street Style Mutton Cutlets",
+    "description": "Delicious Street Style Mutton Cutlets prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/street-style-mutton-cutlets.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-corn-masala-vada-6pieces",
+    "name": "Corn Masala Vada(6pieces)",
+    "description": "Delicious Corn Masala Vada(6pieces) prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/corn-masala-vada-6pieces.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-kheema-with-pav-2pcs-veg-mutton",
+    "name": "Kheema with Pav(2pcs) (Veg/Mutton)",
+    "description": "Delicious Kheema with Pav(2pcs) (Veg/Mutton) prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "price": 13.99
+      },
+      {
+        "price": 16.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/kheema-with-pav-2pcs-veg-mutton.jpg",
+    "tags": [
+      "contains-egg",
+      "veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-desi-sandwich-paneer-chicken",
+    "name": "Desi Sandwich(Paneer/Chicken)",
+    "description": "Delicious Desi Sandwich(Paneer/Chicken) prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "price": 11.99
+      },
+      {
+        "price": 12.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/desi-sandwich-paneer-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "hyderabadi-specials-street-style-burgers-paneer-chicken-mutton",
+    "name": "Street Style Burgers(Paneer/Chicken/Mutton)",
+    "description": "Delicious Street Style Burgers(Paneer/Chicken/Mutton) prepared in authentic hyderabadi specials style.",
+    "variants": [
+      {
+        "price": 12.99
+      },
+      {
+        "price": 12.99
+      }
+    ],
+    "category": "HYDERABADI SPECIALS",
+    "imageUrl": "hyderabadi-specials/street-style-burgers-paneer-chicken-mutton.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kebabs-paneer-tikka-kebab",
+    "name": "Paneer Tikka Kebab",
+    "description": "Delicious Paneer Tikka Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/paneer-tikka-kebab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-gongura-paneer-tikka-kebab",
+    "name": "Gongura Paneer Tikka Kebab",
+    "description": "Delicious Gongura Paneer Tikka Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/gongura-paneer-tikka-kebab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-pudina-paneer-tikka-kebab",
+    "name": "Pudina Paneer Tikka Kebab",
+    "description": "Delicious Pudina Paneer Tikka Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/pudina-paneer-tikka-kebab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-hara-bhara-kabab",
+    "name": "Hara Bhara Kabab",
+    "description": "Delicious Hara Bhara Kabab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/hara-bhara-kabab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-mix-kebab-veg-veg-paneer-non-veg-chicken-goat-seafood",
+    "name": "Mix Kebab(Veg: Veg&Paneer) / (Non Veg: Chicken, Goat&Seafood)",
+    "description": "Delicious Mix Kebab(Veg: Veg&Paneer) / (Non Veg: Chicken, Goat&Seafood) prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "price": 16.99
+      },
+      {
+        "price": 21.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/mix-kebab-veg-veg-paneer-non-veg-chicken-goat-seafood.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kebabs-mushroom-tikka-kebab-malai-cheese",
+    "name": "Mushroom Tikka Kebab(Malai & Cheese)",
+    "description": "Delicious Mushroom Tikka Kebab(Malai & Cheese) prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/mushroom-tikka-kebab-malai-cheese.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-gongura-chicken-tikka-kebab",
+    "name": "Gongura Chicken Tikka Kebab",
+    "description": "Delicious Gongura Chicken Tikka Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/gongura-chicken-tikka-kebab.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kebabs-tandoori-chicken",
+    "name": "Tandoori Chicken",
+    "description": "Delicious Tandoori Chicken prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/tandoori-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kebabs-tangdi-kebab",
+    "name": "Tangdi Kebab",
+    "description": "Delicious Tangdi Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/tangdi-kebab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-chicken-tikka-kebab",
+    "name": "Chicken Tikka Kebab",
+    "description": "Delicious Chicken Tikka Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/chicken-tikka-kebab.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kebabs-hariyali-kebab",
+    "name": "Hariyali Kebab",
+    "description": "Delicious Hariyali Kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/hariyali-kebab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-murgh-malai-kebab",
+    "name": "Murgh Malai kebab",
+    "description": "Delicious Murgh Malai kebab prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/murgh-malai-kebab.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-sheesh-kebab-chicken-goat",
+    "name": "Sheesh Kebab(Chicken/Goat)",
+    "description": "Delicious Sheesh Kebab(Chicken/Goat) prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "price": 16.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/sheesh-kebab-chicken-goat.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kebabs-lamb-chops",
+    "name": "Lamb Chops",
+    "description": "Delicious Lamb Chops prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 22.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/lamb-chops.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-tandoori-pomfret",
+    "name": "Tandoori Pomfret",
+    "description": "Delicious Tandoori Pomfret prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 19.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/tandoori-pomfret.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-tandoori-jhinga",
+    "name": "Tandoori Jhinga",
+    "description": "Delicious Tandoori Jhinga prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 19.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/tandoori-jhinga.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kebabs-whole-tandoori-chicken",
+    "name": "Whole Tandoori Chicken",
+    "description": "Delicious Whole Tandoori Chicken prepared in authentic kebabs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 19.99
+      }
+    ],
+    "category": "KEBABS",
+    "imageUrl": "kebabs/whole-tandoori-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "indo-chinese-street-style-hakka-noodles-veg-egg-chicken",
+    "name": "Street Style Hakka Noodles(Veg/Egg/Chicken)",
+    "description": "Wok-tossed noodles with garlic, soy sauce, and fresh vegetables.",
+    "variants": [
+      {
+        "price": 12.99
+      },
+      {
+        "price": 13.99
+      },
+      {
+        "price": 14.99
+      }
+    ],
+    "category": "INDO CHINESE",
+    "imageUrl": "indo-chinese/street-style-hakka-noodles-veg-egg-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "indo-chinese-burnt-garlic-chili-noodles-veg-egg-chicken",
+    "name": "Burnt Garlic Chili Noodles(Veg/Egg/Chicken)",
+    "description": "Wok-tossed noodles with garlic, soy sauce, and fresh vegetables.",
+    "variants": [
+      {
+        "price": 13.99
+      },
+      {
+        "price": 14.99
+      },
+      {
+        "price": 15.99
+      }
+    ],
+    "category": "INDO CHINESE",
+    "imageUrl": "indo-chinese/burnt-garlic-chili-noodles-veg-egg-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "spicy",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "indo-chinese-street-style-fried-rice-veg-egg-chicken",
+    "name": "Street Style Fried Rice(Veg/Egg/Chicken)",
+    "description": "Flavorful fried rice stir-fried with sauces and fresh ingredients.",
+    "variants": [
+      {
+        "price": 12.99
+      },
+      {
+        "price": 13.99
+      },
+      {
+        "price": 14.99
+      }
+    ],
+    "category": "INDO CHINESE",
+    "imageUrl": "indo-chinese/street-style-fried-rice-veg-egg-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "indo-chinese-burnt-garlic-chili-fried-rice-veg-egg-chicken",
+    "name": "Burnt Garlic Chili Fried Rice(Veg/Egg/Chicken)",
+    "description": "Flavorful fried rice stir-fried with sauces and fresh ingredients.",
+    "variants": [
+      {
+        "price": 13.99
+      },
+      {
+        "price": 14.99
+      },
+      {
+        "price": 15.99
+      }
+    ],
+    "category": "INDO CHINESE",
+    "imageUrl": "indo-chinese/burnt-garlic-chili-fried-rice-veg-egg-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "spicy",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "indo-chinese-mix-noodles-egg-chicken-shrimp",
+    "name": "Mix Noodles(Egg,Chicken Shrimp)",
+    "description": "Wok-tossed noodles with garlic, soy sauce, and fresh vegetables.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "INDO CHINESE",
+    "imageUrl": "indo-chinese/mix-noodles-egg-chicken-shrimp.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "indo-chinese-mix-fried-rice-egg-chicken-shrimp",
+    "name": "Mix Fried Rice(Egg, Chicken, Shrimp)",
+    "description": "Flavorful fried rice stir-fried with sauces and fresh ingredients.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "INDO CHINESE",
+    "imageUrl": "indo-chinese/mix-fried-rice-egg-chicken-shrimp.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-vegetable-dum-biryani",
+    "name": "Vegetable Dum Biryani",
+    "description": "Delicious Vegetable Dum Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      },
+      {
+        "type": "family",
+        "price": 36.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/vegetable-dum-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-paneer-fry-biryani",
+    "name": "Paneer Fry Biryani",
+    "description": "Delicious Paneer Fry Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/paneer-fry-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-paneer-65-dum-biryani",
+    "name": "Paneer 65 Dum Biryani",
+    "description": "Delicious Paneer 65 Dum Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/paneer-65-dum-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-egg-biryani",
+    "name": "Egg Biryani",
+    "description": "Delicious Egg Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 14.99
+      },
+      {
+        "type": "family",
+        "price": 36.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/egg-biryani.jpg",
+    "tags": [
+      "egg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-veg-kheema-biryani",
+    "name": "Veg Kheema Biryani",
+    "description": "Delicious Veg Kheema Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 43.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/veg-kheema-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-hyderabadi-chicken-dum-biryani",
+    "name": "Hyderabadi Chicken Dum Biryani",
+    "description": "Delicious Hyderabadi Chicken Dum Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/hyderabadi-chicken-dum-biryani.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-boneless-chicken-biryani",
+    "name": "Boneless Chicken Biryani",
+    "description": "Delicious Boneless Chicken Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      },
+      {
+        "type": "family",
+        "price": 47.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/boneless-chicken-biryani.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-special-chicken-biryani",
+    "name": "Special Chicken Biryani",
+    "description": "Delicious Special Chicken Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 49.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/special-chicken-biryani.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-hyderabadi-goat-dum-biryani",
+    "name": "Hyderabadi Goat Dum Biryani",
+    "description": "Delicious Hyderabadi Goat Dum Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 51.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/hyderabadi-goat-dum-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-hyderabadi-goat-mughlai-biryani",
+    "name": "Hyderabadi Goat Mughlai Biryani",
+    "description": "Delicious Hyderabadi Goat Mughlai Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 51.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/hyderabadi-goat-mughlai-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-goat-kheema-dum-biryani",
+    "name": "Goat Kheema dum Biryani",
+    "description": "Delicious Goat Kheema dum Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 19.99
+      },
+      {
+        "type": "family",
+        "price": 58.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/goat-kheema-dum-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-shrimp-biryani",
+    "name": "Shrimp Biryani",
+    "description": "Delicious Shrimp Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 51.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/shrimp-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-special-fish-biryani",
+    "name": "Special Fish Biryani",
+    "description": "Delicious Special Fish Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 51.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/special-fish-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-mutton-fry-biryani",
+    "name": "Mutton Fry Biryani",
+    "description": "Delicious Mutton Fry Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 56.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/mutton-fry-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-chicken-fry-biryani",
+    "name": "Chicken Fry Biryani",
+    "description": "Delicious Chicken Fry Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      },
+      {
+        "type": "family",
+        "price": 47.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/chicken-fry-biryani.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-boneless-mutton-fry-dum-biryani",
+    "name": "Boneless Mutton Fry Dum Biryani",
+    "description": "Delicious Boneless Mutton Fry Dum Biryani prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 19.99
+      },
+      {
+        "type": "family",
+        "price": 58.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/boneless-mutton-fry-dum-biryani.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-nattukodi-dum-biryani-country-chicken",
+    "name": "Nattukodi Dum Biryani (Country Chicken)",
+    "description": "Delicious Nattukodi Dum Biryani (Country Chicken) prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 49.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/nattukodi-dum-biryani-country-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-pulavs",
+    "name": "Pulavs:",
+    "description": "Delicious Pulavs: prepared in authentic biryanis and pulavs style.",
+    "variants": [],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/pulavs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-paneer-fry-pulav",
+    "name": "Paneer Fry Pulav",
+    "description": "Delicious Paneer Fry Pulav prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/paneer-fry-pulav.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-guthi-vankaya-pulav",
+    "name": "Guthi Vankaya Pulav",
+    "description": "Delicious Guthi Vankaya Pulav prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/guthi-vankaya-pulav.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-kofta-pulav",
+    "name": "Kofta Pulav",
+    "description": "Delicious Kofta Pulav prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/kofta-pulav.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-green-mirchi-paneer-pulav",
+    "name": "Green Mirchi Paneer Pulav",
+    "description": "Delicious Green Mirchi Paneer Pulav prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 42.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/green-mirchi-paneer-pulav.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-green-mirchi-chicken-pulav",
+    "name": "Green Mirchi Chicken Pulav",
+    "description": "Delicious Green Mirchi Chicken Pulav prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      },
+      {
+        "type": "family",
+        "price": 47.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/green-mirchi-chicken-pulav.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-chicken-fry-pulav",
+    "name": "Chicken Fry Pulav -",
+    "description": "Delicious Chicken Fry Pulav - prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      },
+      {
+        "type": "family",
+        "price": 47.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/chicken-fry-pulav.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-mutton-fry-pulav-bone-in",
+    "name": "Mutton Fry Pulav (Bone-In)",
+    "description": "Delicious Mutton Fry Pulav (Bone-In) prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 53.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/mutton-fry-pulav-bone-in.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-boneless-chicken-pulav",
+    "name": "Boneless Chicken Pulav -",
+    "description": "Delicious Boneless Chicken Pulav - prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      },
+      {
+        "type": "family",
+        "price": 47.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/boneless-chicken-pulav.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-boneless-mutton-fry-pulav",
+    "name": "Boneless Mutton Fry Pulav",
+    "description": "Delicious Boneless Mutton Fry Pulav prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 53.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/boneless-mutton-fry-pulav.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-ulavacharu-gongura-biryani-veg-paneer",
+    "name": "Ulavacharu/Gongura Biryani (Veg/Paneer)",
+    "description": "Delicious Ulavacharu/Gongura Biryani (Veg/Paneer) prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 17.99
+      },
+      {
+        "type": "family",
+        "price": 41.99
+      },
+      {
+        "type": "family",
+        "price": 44.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/ulavacharu-gongura-biryani-veg-paneer.jpg",
+    "tags": [
+      "contains-egg",
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-ulavacharu-gongura-biryani-shrimp-fish",
+    "name": "Ulavacharu/Gongura Biryani (Shrimp/Fish)",
+    "description": "Delicious Ulavacharu/Gongura Biryani (Shrimp/Fish) prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 18.99
+      },
+      {
+        "type": "family",
+        "price": 55.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/ulavacharu-gongura-biryani-shrimp-fish.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "biryanis-and-pulavs-ulavacharu-gongura-biryani-chicken-goat-egg",
+    "name": "Ulavacharu/Gongura Biryani (Chicken/Goat/Egg)",
+    "description": "Delicious Ulavacharu/Gongura Biryani (Chicken/Goat/Egg) prepared in authentic biryanis and pulavs style.",
+    "variants": [
+      {
+        "price": 17.99
+      },
+      {
+        "price": 18.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "type": "family",
+        "price": 48.99
+      },
+      {
+        "type": "family",
+        "price": 52.99
+      },
+      {
+        "type": "family",
+        "price": 41.99
+      }
+    ],
+    "category": "BIRYANIS AND PULAVS",
+    "imageUrl": "biryanis-and-pulavs/ulavacharu-gongura-biryani-chicken-goat-egg.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kids-specials-jeera-rice",
+    "name": "Jeera Rice",
+    "description": "Delicious Jeera Rice prepared in authentic kids specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "KIDS SPECIALS",
+    "imageUrl": "kids-specials/jeera-rice.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kids-specials-paneer-rice",
+    "name": "Paneer Rice",
+    "description": "Delicious Paneer Rice prepared in authentic kids specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 9.99
+      }
+    ],
+    "category": "KIDS SPECIALS",
+    "imageUrl": "kids-specials/paneer-rice.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "kids-specials-butter-chicken-rice",
+    "name": "Butter Chicken Rice",
+    "description": "Delicious Butter Chicken Rice prepared in authentic kids specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 10.99
+      }
+    ],
+    "category": "KIDS SPECIALS",
+    "imageUrl": "kids-specials/butter-chicken-rice.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "kids-specials-kids-chicken-kebab-3pieces",
+    "name": "Kids Chicken Kebab(3pieces)",
+    "description": "Delicious Kids Chicken Kebab(3pieces) prepared in authentic kids specials style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 10.99
+      }
+    ],
+    "category": "KIDS SPECIALS",
+    "imageUrl": "kids-specials/kids-chicken-kebab-3pieces.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-saag-aloo-chicken",
+    "name": "Saag(Aloo/Chicken)",
+    "description": "Delicious Saag(Aloo/Chicken) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 13.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 15.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/saag-aloo-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-tikka-masalas-paneer-chicken-lamb-shrimp",
+    "name": "(Tikka Masalas) (Paneer/Chicken/Lamb/Shrimp)",
+    "description": "Delicious (Tikka Masalas) (Paneer/Chicken/Lamb/Shrimp) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 18.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/tikka-masalas-paneer-chicken-lamb-shrimp.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-hyderabadi-dalcha-veg-mutton",
+    "name": "Hyderabadi Dalcha(Veg/Mutton)",
+    "description": "Delicious Hyderabadi Dalcha(Veg/Mutton) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 14.99
+      },
+      {
+        "price": 18.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/hyderabadi-dalcha-veg-mutton.jpg",
+    "tags": [
+      "contains-egg",
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-korma-veg-navartan-paneer-chicken-shrimp",
+    "name": "Korma(Veg/Navartan/Paneer/Chicken/Shrimp)",
+    "description": "Delicious Korma(Veg/Navartan/Paneer/Chicken/Shrimp) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 14.99
+      },
+      {
+        "price": 14.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 18.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/korma-veg-navartan-paneer-chicken-shrimp.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-hyderabadi-dum-ka-gravy-veg-chicken-mutton-prawn",
+    "name": "Hyderabadi Dum Ka Gravy (Veg/Chicken/Mutton/Prawn)",
+    "description": "Delicious Hyderabadi Dum Ka Gravy (Veg/Chicken/Mutton/Prawn) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 18.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/hyderabadi-dum-ka-gravy-veg-chicken-mutton-prawn.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-kheema-veg-mutton",
+    "name": "Kheema(Veg/Mutton)",
+    "description": "Delicious Kheema(Veg/Mutton) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 16.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/kheema-veg-mutton.jpg",
+    "tags": [
+      "contains-egg",
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-gongura-sorrel-paneer-chicken-mutton-shrimp",
+    "name": "Gongura(Sorrel) (Paneer/Chicken/Mutton/Shrimp)",
+    "description": "Delicious Gongura(Sorrel) (Paneer/Chicken/Mutton/Shrimp) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 18.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/gongura-sorrel-paneer-chicken-mutton-shrimp.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-chettinadu-curry-veg-chicken-mutton-fish",
+    "name": "Chettinadu Curry(Veg/Chicken/Mutton/Fish)",
+    "description": "Delicious Chettinadu Curry(Veg/Chicken/Mutton/Fish) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 17.99
+      },
+      {
+        "price": 18.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/chettinadu-curry-veg-chicken-mutton-fish.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-ankapur-chicken-mutton-rara-nellore-fish-curry",
+    "name": "(Ankapur Chicken/ Mutton Rara/Nellore Fish Curry)",
+    "description": "Delicious (Ankapur Chicken/ Mutton Rara/Nellore Fish Curry) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 17.99
+      },
+      {
+        "price": 19.99
+      },
+      {
+        "price": 19.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/ankapur-chicken-mutton-rara-nellore-fish-curry.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-dum-ka-paneer-egg-chicken-goat",
+    "name": "Dum-Ka-(Paneer/Egg/Chicken/Goat)",
+    "description": "Delicious Dum-Ka-(Paneer/Egg/Chicken/Goat) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 16.99
+      },
+      {
+        "price": 18.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/dum-ka-paneer-egg-chicken-goat.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-tomato-tadka-dal",
+    "name": "Tomato Tadka Dal",
+    "description": "Delicious Tomato Tadka Dal prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/tomato-tadka-dal.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-kaju-cury-paneer-chicken",
+    "name": "Kaju(Cury/Paneer/Chicken)",
+    "description": "Delicious Kaju(Cury/Paneer/Chicken) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 14.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 16.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/kaju-cury-paneer-chicken.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-ramba-chicken",
+    "name": "Ramba Chicken",
+    "description": "Delicious Ramba Chicken prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 16.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/ramba-chicken.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-aloo-mutter-mushroom-gobi-masala",
+    "name": "Aloo(Mutter Mushroom/Gobi Masala)",
+    "description": "Delicious Aloo(Mutter Mushroom/Gobi Masala) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/aloo-mutter-mushroom-gobi-masala.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-paneer-mutter-palak-shahi-curry",
+    "name": "Paneer(Mutter/Palak/Shahi/Curry)",
+    "description": "Delicious Paneer(Mutter/Palak/Shahi/Curry) prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/paneer-mutter-palak-shahi-curry.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-egg-pulusu-egg-masala",
+    "name": "Egg Pulusu/Egg Masala",
+    "description": "Delicious Egg Pulusu/Egg Masala prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/egg-pulusu-egg-masala.jpg",
+    "tags": [
+      "egg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-malai-kofta",
+    "name": "Malai Kofta",
+    "description": "Delicious Malai Kofta prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/malai-kofta.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-gutti-vankaya",
+    "name": "Gutti Vankaya",
+    "description": "Delicious Gutti Vankaya prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/gutti-vankaya.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-chana-masala",
+    "name": "Chana Masala",
+    "description": "Delicious Chana Masala prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/chana-masala.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-mirchi-ka-salan",
+    "name": "Mirchi Ka Salan",
+    "description": "Delicious Mirchi Ka Salan prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/mirchi-ka-salan.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-hyd-mutton-masala",
+    "name": "Hyd Mutton Masala",
+    "description": "Delicious Hyd Mutton Masala prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/hyd-mutton-masala.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-andhra-style-chicken-goat-curry",
+    "name": "Andhra Style(Chicken/Goat) Curry",
+    "description": "Delicious Andhra Style(Chicken/Goat) Curry prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "price": 15.99
+      },
+      {
+        "price": 17.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/andhra-style-chicken-goat-curry.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "ethinic-entrees-goat-rogan-josh",
+    "name": "Goat Rogan Josh",
+    "description": "Delicious Goat Rogan Josh prepared in authentic ethinic entrees style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 17.99
+      }
+    ],
+    "category": "ETHINIC ENTREES",
+    "imageUrl": "ethinic-entrees/goat-rogan-josh.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-plain-naan",
+    "name": "Plain Naan",
+    "description": "Delicious Plain Naan prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 2.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/plain-naan.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-butter-naan",
+    "name": "Butter Naan",
+    "description": "Delicious Butter Naan prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.49
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/butter-naan.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-bullet-naan",
+    "name": "Bullet Naan",
+    "description": "Delicious Bullet Naan prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 4.49
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/bullet-naan.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-garlic-naan",
+    "name": "Garlic Naan",
+    "description": "Delicious Garlic Naan prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/garlic-naan.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-onion-kulcha",
+    "name": "Onion Kulcha",
+    "description": "Delicious Onion Kulcha prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 4.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/onion-kulcha.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-paratha-2pcs",
+    "name": "Paratha(2pcs)",
+    "description": "Delicious Paratha(2pcs) prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 4.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/paratha-2pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-chef-s-special-naan-paneer",
+    "name": "Chef's Special Naan (Paneer)",
+    "description": "Delicious Chef's Special Naan (Paneer) prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/chef-s-special-naan-paneer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-chicken-kheema-naan",
+    "name": "Chicken Kheema Naan",
+    "description": "Delicious Chicken Kheema Naan prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/chicken-kheema-naan.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-mutton-kheema-naan",
+    "name": "Mutton Kheema Naan",
+    "description": "Delicious Mutton Kheema Naan prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/mutton-kheema-naan.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-kothu-paratta-veg-egg-chicken-goat",
+    "name": "Kothu Paratta(Veg/Egg/Chicken/Goat)",
+    "description": "Delicious Kothu Paratta(Veg/Egg/Chicken/Goat) prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "price": 12.99
+      },
+      {
+        "price": 13.99
+      },
+      {
+        "price": 14.99
+      },
+      {
+        "price": 16.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/kothu-paratta-veg-egg-chicken-goat.jpg",
+    "tags": [
+      "contains-egg",
+      "non-veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-chapati-2pcs",
+    "name": "Chapati(2pcs)",
+    "description": "Delicious Chapati(2pcs) prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/chapati-2pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-rumali-roti",
+    "name": "Rumali Roti",
+    "description": "Delicious Rumali Roti prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 4.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/rumali-roti.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "breads-accompainments-phulka-2pcs",
+    "name": "Phulka(2pcs)",
+    "description": "Delicious Phulka(2pcs) prepared in authentic breads & accompainments style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 2.99
+      }
+    ],
+    "category": "BREADS & ACCOMPAINMENTS",
+    "imageUrl": "breads-accompainments/phulka-2pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-qubani-ka-meetha",
+    "name": "Qubani ka Meetha",
+    "description": "Delicious Qubani ka Meetha prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/qubani-ka-meetha.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-double-ka-meetha",
+    "name": "Double ka meetha",
+    "description": "Delicious Double ka meetha prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/double-ka-meetha.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-rasamalai",
+    "name": "Rasamalai",
+    "description": "Delicious Rasamalai prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/rasamalai.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-gulab-jamun",
+    "name": "Gulab Jamun",
+    "description": "Delicious Gulab Jamun prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 5.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/gulab-jamun.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-kaddu-ka-kheer",
+    "name": "Kaddu-Ka-Kheer",
+    "description": "Delicious Kaddu-Ka-Kheer prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/kaddu-ka-kheer.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-pine-apple-kesari",
+    "name": "Pine apple Kesari",
+    "description": "Delicious Pine apple Kesari prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/pine-apple-kesari.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-brownie-w-ice-cream",
+    "name": "Brownie W/ Ice Cream",
+    "description": "Delicious Brownie W/ Ice Cream prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 8.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/brownie-w-ice-cream.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-icecreams",
+    "name": "IceCreams",
+    "description": "Delicious IceCreams prepared in authentic desserts style.",
+    "variants": [],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/icecreams.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-vanilla",
+    "name": "Vanilla",
+    "description": "Delicious Vanilla prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 2.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/vanilla.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-chocolate",
+    "name": "Chocolate",
+    "description": "Delicious Chocolate prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 2.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/chocolate.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-strawberry",
+    "name": "strawberry",
+    "description": "Delicious strawberry prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 2.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/strawberry.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "desserts-falooda",
+    "name": "Falooda",
+    "description": "Delicious Falooda prepared in authentic desserts style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 9.99
+      }
+    ],
+    "category": "DESSERTS",
+    "imageUrl": "desserts/falooda.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "combos-veg-combo",
+    "name": "Veg Combo",
+    "description": "Delicious Veg Combo prepared in authentic combos style.",
+    "variants": [],
+    "category": "COMBOS",
+    "imageUrl": "combos/veg-combo.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "combos-chicken-combo",
+    "name": "Chicken Combo",
+    "description": "Delicious Chicken Combo prepared in authentic combos style.",
+    "variants": [],
+    "category": "COMBOS",
+    "imageUrl": "combos/chicken-combo.jpg",
+    "tags": [
+      "non-veg"
+    ]
+  },
+  {
+    "id": "combos-mutton-combo",
+    "name": "Mutton Combo",
+    "description": "Delicious Mutton Combo prepared in authentic combos style.",
+    "variants": [],
+    "category": "COMBOS",
+    "imageUrl": "combos/mutton-combo.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-cold",
+    "name": "Cold",
+    "description": "Delicious Cold prepared in authentic beverages style.",
+    "variants": [],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/cold.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-soft-drinks",
+    "name": "Soft Drinks",
+    "description": "Delicious Soft Drinks prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 2.49
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/soft-drinks.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-thums-up",
+    "name": "Thums Up",
+    "description": "Delicious Thums Up prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/thums-up.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-limca",
+    "name": "Limca",
+    "description": "Delicious Limca prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/limca.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-mango-lassi",
+    "name": "Mango Lassi",
+    "description": "Delicious Mango Lassi prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 5.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/mango-lassi.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-chikoo-milkshake",
+    "name": "Chikoo Milkshake",
+    "description": "Delicious Chikoo Milkshake prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/chikoo-milkshake.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-strawberry-milkshake",
+    "name": "Strawberry Milkshake",
+    "description": "Delicious Strawberry Milkshake prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/strawberry-milkshake.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-rose-milk",
+    "name": "Rose Milk",
+    "description": "Delicious Rose Milk prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 5.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/rose-milk.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-badam-milk",
+    "name": "Badam Milk",
+    "description": "Delicious Badam Milk prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/badam-milk.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-orange-juice",
+    "name": "Orange Juice",
+    "description": "Delicious Orange Juice prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/orange-juice.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-sugarcane-juice",
+    "name": "Sugarcane Juice",
+    "description": "Delicious Sugarcane Juice prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/sugarcane-juice.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-hot",
+    "name": "Hot",
+    "description": "Delicious Hot prepared in authentic beverages style.",
+    "variants": [],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/hot.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-irani-chai",
+    "name": "Irani Chai",
+    "description": "Delicious Irani Chai prepared in authentic beverages style.",
+    "variants": [
+      {
+        "price": 1.49
+      },
+      {
+        "price": 2.99
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/irani-chai.jpg",
+    "tags": [
+      "contains-egg",
+      "veg"
+    ]
+  },
+  {
+    "id": "beverages-south-indian-coffee",
+    "name": "South Indian Coffee",
+    "description": "Delicious South Indian Coffee prepared in authentic beverages style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 4.49
+      }
+    ],
+    "category": "BEVERAGES",
+    "imageUrl": "beverages/south-indian-coffee.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-idli-3pcs",
+    "name": "Idli(3pcs)",
+    "description": "Delicious Idli(3pcs) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/idli-3pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-medhu-vada-3pcs",
+    "name": "Medhu Vada(3pcs)",
+    "description": "Delicious Medhu Vada(3pcs) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/medhu-vada-3pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-2idli-1vada",
+    "name": "(2idli+1Vada)",
+    "description": "Delicious (2idli+1Vada) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/2idli-1vada.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-sambar-vada-2pcs",
+    "name": "Sambar Vada(2pcs)",
+    "description": "Delicious Sambar Vada(2pcs) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/sambar-vada-2pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-sambar-idli-2pcs",
+    "name": "Sambar Idli(2pcs)",
+    "description": "Delicious Sambar Idli(2pcs) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/sambar-idli-2pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-punugulu-10pcs",
+    "name": "Punugulu(10pcs)",
+    "description": "Delicious Punugulu(10pcs) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/punugulu-10pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-plain-dosa",
+    "name": "Plain Dosa",
+    "description": "Delicious Plain Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 10.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/plain-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-masala-dosa",
+    "name": "Masala Dosa",
+    "description": "Delicious Masala Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/masala-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-ghee-dosa",
+    "name": "Ghee Dosa",
+    "description": "Delicious Ghee Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/ghee-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-karam-dosa",
+    "name": "Karam Dosa",
+    "description": "Delicious Karam Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/karam-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-ghee-karam-dosa",
+    "name": "Ghee Karam Dosa",
+    "description": "Delicious Ghee Karam Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/ghee-karam-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-benne-dosa",
+    "name": "Benne Dosa",
+    "description": "Delicious Benne Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/benne-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-podi-dosa",
+    "name": "Podi Dosa",
+    "description": "Delicious Podi Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/podi-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-set-dosa",
+    "name": "Set Dosa",
+    "description": "Delicious Set Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/set-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-onion-dosa",
+    "name": "Onion Dosa",
+    "description": "Delicious Onion Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 11.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/onion-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-onion-masala-dosa",
+    "name": "Onion Masala Dosa",
+    "description": "Delicious Onion Masala Dosa prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 12.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/onion-masala-dosa.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-peserattu-with-upma",
+    "name": "Peserattu With Upma",
+    "description": "Delicious Peserattu With Upma prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 13.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/peserattu-with-upma.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-quick-tiffin-2-idli-1vada-pongal",
+    "name": "Quick Tiffin(2 Idli, 1Vada, pongal)",
+    "description": "Delicious Quick Tiffin(2 Idli, 1Vada, pongal) prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 9.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/quick-tiffin-2-idli-1vada-pongal.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-ghee-pongal",
+    "name": "Ghee Pongal",
+    "description": "Delicious Ghee Pongal prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/ghee-pongal.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "tiffins-vegetable-upma",
+    "name": "Vegetable Upma",
+    "description": "Delicious Vegetable Upma prepared in authentic tiffins style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "TIFFINS",
+    "imageUrl": "tiffins/vegetable-upma.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-pani-puri",
+    "name": "Pani Puri",
+    "description": "Delicious Pani Puri prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/pani-puri.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-masala-puri",
+    "name": "Masala Puri",
+    "description": "Delicious Masala Puri prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 8.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/masala-puri.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-dahi-puri",
+    "name": "Dahi Puri",
+    "description": "Delicious Dahi Puri prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 8.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/dahi-puri.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-papdi-chat",
+    "name": "Papdi Chat",
+    "description": "Delicious Papdi Chat prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/papdi-chat.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-bhel-puri",
+    "name": "Bhel Puri",
+    "description": "Delicious Bhel Puri prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/bhel-puri.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-pav-bhaji",
+    "name": "Pav Bhaji",
+    "description": "Delicious Pav Bhaji prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 9.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/pav-bhaji.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "chats-samosa-chat",
+    "name": "Samosa Chat",
+    "description": "Delicious Samosa Chat prepared in authentic chats style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 10.99
+      }
+    ],
+    "category": "CHATS",
+    "imageUrl": "chats/samosa-chat.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-punugulu",
+    "name": "Punugulu",
+    "description": "Delicious Punugulu prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/punugulu.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-mysore-bonda",
+    "name": "Mysore Bonda",
+    "description": "Delicious Mysore Bonda prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/mysore-bonda.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-plantain-bajji",
+    "name": "Plantain Bajji",
+    "description": "Delicious Plantain Bajji prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/plantain-bajji.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-masala-vada",
+    "name": "Masala Vada",
+    "description": "Delicious Masala Vada prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/masala-vada.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-veg-samosa-2pcs",
+    "name": "Veg Samosa(2pcs)",
+    "description": "Delicious Veg Samosa(2pcs) prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/veg-samosa-2pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-onion-samosa-4pcs",
+    "name": "Onion Samosa(4pcs)",
+    "description": "Delicious Onion Samosa(4pcs) prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 5.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/onion-samosa-4pcs.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-onion-pakora",
+    "name": "Onion Pakora",
+    "description": "Delicious Onion Pakora prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/onion-pakora.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-bun-maska",
+    "name": "Bun Maska",
+    "description": "Delicious Bun Maska prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 3.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/bun-maska.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-mirchi-bajji",
+    "name": "Mirchi Bajji",
+    "description": "Delicious Mirchi Bajji prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 6.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/mirchi-bajji.jpg",
+    "tags": [
+      "veg"
+    ]
+  },
+  {
+    "id": "quick-snacks-cut-mirchi",
+    "name": "Cut Mirchi",
+    "description": "Delicious Cut Mirchi prepared in authentic quick snacks style.",
+    "variants": [
+      {
+        "type": "base",
+        "price": 7.99
+      }
+    ],
+    "category": "QUICK SNACKS",
+    "imageUrl": "quick-snacks/cut-mirchi.jpg",
+    "tags": [
+      "veg"
+    ]
+  }
+]

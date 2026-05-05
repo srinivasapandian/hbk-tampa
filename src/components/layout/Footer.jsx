@@ -1,4 +1,5 @@
 import { MapPin, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,7 +22,9 @@ const Footer = () => {
         >
           <div className="space-y-5 flex flex-col items-center md:items-start">
             <div className="w-32 h-32 md:w-36 md:h-36 flex items-center justify-center">
-              <img src="/house-of-biryani.png" alt="House of Biryani Logo" className="w-full h-full object-contain" />
+              <Link to="/">
+                <img src="/house-of-biryani.png" alt="House of Biryani Logo" className="w-full h-full object-contain" />
+              </Link>
             </div>
             <p className="text-[16px] leading-relaxed text-white/60 text-center md:text-left font-sans">
               Privacy Policy | Terms & <br /> Conditions | Refund Policy
@@ -34,12 +37,12 @@ const Footer = () => {
             </h4>
             <div className="h-[2px] w-12 bg-[#FFD700] mb-6"></div>
             <ul className="space-y-3 text-[18px] leading-[1.4] text-white/80 text-center md:text-left font-sans">
-              <li><a href="/#home" className="hover:text-[#FFD700] transition-colors">Home</a></li>
-              <li><a href="/#about-us" className="hover:text-[#FFD700] transition-colors">About Us</a></li>
-              <li><a href="/#menu" className="hover:text-[#FFD700] transition-colors">Menu</a></li>
-              <li><a href="/#services" className="hover:text-[#FFD700] transition-colors">Catering</a></li>
-              <li><a href="/#gallery" className="hover:text-[#FFD700] transition-colors">Buffet</a></li>
-              <li><a href="/#contact-us" className="hover:text-[#FFD700] transition-colors">Contact Us</a></li>
+              <li><Link to="/" className="hover:text-[#FFD700] transition-colors">Home</Link></li>
+              <li><Link to="/#about-us" className="hover:text-[#FFD700] transition-colors">About Us</Link></li>
+              <li><Link to="/menu" className="hover:text-[#FFD700] transition-colors">Menu</Link></li>
+              <li><Link to="/#services" className="hover:text-[#FFD700] transition-colors">Catering</Link></li>
+              <li><Link to="/#gallery" className="hover:text-[#FFD700] transition-colors">Buffet</Link></li>
+              <li><Link to="/#contact-us" className="hover:text-[#FFD700] transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 

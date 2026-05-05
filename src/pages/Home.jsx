@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Utensils, Award, Clock, Users, ArrowRight, ExternalLink } from 'lucide-react';
 import siteData from '../data/siteData.json';
 import { Button } from '../components/common/Button';
@@ -44,6 +45,7 @@ const galleryItems = [
 ].map((item, idx) => ({ ...item, uniqueId: `${item.id}-${idx}` }));
 
 const Home = () => {
+  const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState('All Foods');
   const [activeMenuIndex, setActiveMenuIndex] = useState(0);
   const [activeGalleryIndex, setActiveGalleryIndex] = useState(15);
@@ -266,6 +268,7 @@ const Home = () => {
               </div>
 
               <button
+                onClick={() => navigate('/menu')}
                 className="group inline-flex items-center justify-center bg-transparent text-white font-serif leading-[100%] hover:bg-[#D8AA3E]/10 transition-all mt-1"
                 style={{
                   width: '165px',
