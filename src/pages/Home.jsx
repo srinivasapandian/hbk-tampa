@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Utensils, Award, Clock, Users, ArrowRight, ExternalLink } from 'lucide-react';
+import { Utensils, Award, Clock, Users, ArrowRight, ExternalLink, X } from 'lucide-react';
 import siteData from '../data/siteData.json';
 import { Button } from '../components/common/Button';
 import { Card } from '../components/common/Card';
@@ -35,10 +35,8 @@ const baseGalleryItems = [
   { id: 5, image: gallery5, name: 'Fish Fry' },
 ];
 
+// 3 copies: left-buffer | visible | right-buffer — enables seamless infinite wrap
 const galleryItems = [
-  ...baseGalleryItems,
-  ...baseGalleryItems,
-  ...baseGalleryItems,
   ...baseGalleryItems,
   ...baseGalleryItems,
   ...baseGalleryItems,
@@ -48,81 +46,154 @@ const Home = () => {
   const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState('All Foods');
   const [activeMenuIndex, setActiveMenuIndex] = useState(0);
-  const [activeGalleryIndex, setActiveGalleryIndex] = useState(15);
+  const [activeGalleryIndex, setActiveGalleryIndex] = useState(null);
+  const [galleryPopup, setGalleryPopup] = useState(null); // { image, name }
   const [isMenuScrolling, setIsMenuScrolling] = useState(false);
-  const galleryRef = useRef(null);
+
+  // Close popup on Escape key
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') setGalleryPopup(null); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
   const menuRef = useRef(null);
   const menuScrollTimeoutRef = useRef(null);
 
+  // Gallery: transform-based infinite scroll engine
+  const galleryOuterRef = useRef(null);
+  const galleryTrackRef = useRef(null);
+  const gs = useRef({
+    offset: 0, target: 0, velocity: 0, cycleWidth: 0, raf: null,
+    touchStartX: 0, touchStartY: 0, lastX: 0, lastY: 0,
+    lastTime: 0, touchVel: 0, dragging: false,
+  });
+
   const handleMenuScroll = () => {
     setIsMenuScrolling(true);
-    if (menuScrollTimeoutRef.current) {
-      clearTimeout(menuScrollTimeoutRef.current);
-    }
-    menuScrollTimeoutRef.current = setTimeout(() => {
-      setIsMenuScrolling(false);
-    }, 200);
+    if (menuScrollTimeoutRef.current) clearTimeout(menuScrollTimeoutRef.current);
+    menuScrollTimeoutRef.current = setTimeout(() => setIsMenuScrolling(false), 200);
   };
 
   const filteredMenu = activeCategory === 'All Foods'
     ? siteData.menu
     : siteData.menu.filter(item => item.category === activeCategory);
 
+  useEffect(() => { setActiveMenuIndex(0); }, [activeCategory]);
+
+  // ── Gallery infinite-scroll engine ───────────────────────────────────────
   useEffect(() => {
-    setActiveMenuIndex(0);
-  }, [activeCategory]);
+    const outer = galleryOuterRef.current;
+    const track = galleryTrackRef.current;
+    if (!outer || !track) return;
+    const s = gs.current;
 
-  const handleGalleryScroll = () => {
-    if (!galleryRef.current) return;
-    const container = galleryRef.current;
-    
-    // Infinite loop logic
-    const { scrollLeft, scrollWidth, clientWidth } = container;
-    
-    // Calculate the width of one full cycle (baseGalleryItems.length items)
-    // We use the distance between item 0 and item 5 to get the exact width including gaps
-    if (container.children.length > baseGalleryItems.length) {
-      const cycleWidth = container.children[baseGalleryItems.length].offsetLeft - container.children[0].offsetLeft;
-      
-      if (scrollLeft < cycleWidth) {
-        // Jump forward by 2 cycles to stay in the middle
-        container.scrollLeft = scrollLeft + cycleWidth * 2;
-        return;
-      } else if (scrollLeft > cycleWidth * 4) {
-        // Jump backward by 2 cycles
-        container.scrollLeft = scrollLeft - cycleWidth * 2;
-        return;
+    const applyTransform = () => {
+      track.style.transform = `translateX(${s.offset}px)`;
+    };
+
+    // Seamless wrap: track has 3 copies, cycleWidth = width of 1 copy
+    const normalize = () => {
+      if (!s.cycleWidth) return;
+      const c = s.cycleWidth;
+      while (s.offset < -(c * 2)) { s.offset += c; s.target += c; }
+      while (s.offset > -c)       { s.offset -= c; s.target -= c; }
+    };
+
+    const initPosition = () => {
+      // Track = 3 copies; start in the middle copy (copy index 1)
+      s.cycleWidth = track.scrollWidth / 3;
+      s.offset = -s.cycleWidth;
+      s.target = s.offset;
+      applyTransform();
+    };
+
+    // Wait a tick so images have painted and scrollWidth is accurate
+    const initTimer = setTimeout(initPosition, 120);
+    const resizeObs = new ResizeObserver(initPosition);
+    resizeObs.observe(track);
+
+    const startRAF = () => {
+      if (s.raf) return;
+      const loop = () => {
+        s.offset += (s.target - s.offset) * 0.1; // lerp
+        s.target  += s.velocity;
+        s.velocity *= 0.91;                        // friction
+        applyTransform();
+        normalize();
+        const settled = Math.abs(s.target - s.offset) < 0.05
+                     && Math.abs(s.velocity) < 0.05;
+        s.raf = settled ? null : requestAnimationFrame(loop);
+      };
+      s.raf = requestAnimationFrame(loop);
+    };
+
+    // ── Wheel (mouse + trackpad) ─────────────────────────────────────────
+    const onWheel = (e) => {
+      e.preventDefault();
+      const dx = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+      const scale = e.deltaMode === 1 ? 24 : 1; // line vs pixel
+      s.target  -= dx * scale * 0.85;
+      s.velocity = 0;
+      startRAF();
+    };
+
+    // ── Touch ────────────────────────────────────────────────────────────
+    const onTouchStart = (e) => {
+      s.touchStartX = e.touches[0].clientX;
+      s.touchStartY = e.touches[0].clientY;
+      s.lastX = s.touchStartX;
+      s.lastY = s.touchStartY;
+      s.lastTime = Date.now();
+      s.touchVel = 0;
+      s.dragging = false;
+      s.velocity = 0;
+      if (s.raf) { cancelAnimationFrame(s.raf); s.raf = null; }
+      s.target = s.offset;
+    };
+
+    const onTouchMove = (e) => {
+      const dx = e.touches[0].clientX - s.lastX;
+      const dy = e.touches[0].clientY - s.lastY;
+      if (!s.dragging) {
+        const adx = Math.abs(e.touches[0].clientX - s.touchStartX);
+        const ady = Math.abs(e.touches[0].clientY - s.touchStartY);
+        if (ady > adx && ady > 6) return; // vertical — let page scroll
+        if (adx > 4) s.dragging = true;
       }
-    }
+      if (!s.dragging) return;
+      e.preventDefault();
+      const now = Date.now();
+      const dt = now - s.lastTime || 1;
+      s.touchVel = dx / dt;
+      s.lastX = e.touches[0].clientX;
+      s.lastY = e.touches[0].clientY;
+      s.lastTime = now;
+      s.offset += dx;
+      s.target  = s.offset;
+      applyTransform();
+      normalize();
+    };
 
-    const containerCenter = container.scrollLeft + container.clientWidth / 2;
+    const onTouchEnd = () => {
+      s.dragging = false;
+      s.velocity = s.touchVel * 14; // inertia throw
+      startRAF();
+    };
 
-    let closestIndex = activeGalleryIndex;
-    let minDistance = Infinity;
+    outer.addEventListener('wheel',      onWheel,      { passive: false });
+    outer.addEventListener('touchstart', onTouchStart, { passive: true  });
+    outer.addEventListener('touchmove',  onTouchMove,  { passive: false });
+    outer.addEventListener('touchend',   onTouchEnd,   { passive: true  });
 
-    Array.from(container.children).forEach((child, index) => {
-      const childCenter = child.offsetLeft + child.clientWidth / 2;
-      const distance = Math.abs(childCenter - containerCenter);
-      if (distance < minDistance) {
-        minDistance = distance;
-        closestIndex = index;
-      }
-    });
-
-    if (closestIndex !== activeGalleryIndex) {
-      setActiveGalleryIndex(closestIndex);
-    }
-  };
-
-  useEffect(() => {
-    // Scroll to the active item initially
-    if (galleryRef.current) {
-      const container = galleryRef.current;
-      const activeChild = container.children[activeGalleryIndex];
-      if (activeChild) {
-        container.scrollLeft = activeChild.offsetLeft - container.clientWidth / 2 + activeChild.clientWidth / 2;
-      }
-    }
+    return () => {
+      clearTimeout(initTimer);
+      resizeObs.disconnect();
+      outer.removeEventListener('wheel',      onWheel);
+      outer.removeEventListener('touchstart', onTouchStart);
+      outer.removeEventListener('touchmove',  onTouchMove);
+      outer.removeEventListener('touchend',   onTouchEnd);
+      if (s.raf) cancelAnimationFrame(s.raf);
+    };
   }, []);
 
   return (
@@ -411,55 +482,83 @@ const Home = () => {
 
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-24 bg-black">
-        <div className="w-full px-4 md:px-10">
-          <div className="flex items-end gap-4 mb-20 justify-center">
+      <section id="gallery" className="py-24 bg-black overflow-hidden">
+        <div className="w-full">
+          <div className="flex items-end gap-4 mb-20 justify-center px-4">
             <h2 className="title-with-line text-4xl md:text-6xl font-serif tracking-widest text-center">Gallery</h2>
             <div className="flex-shrink-0">
               <img src={vector} alt="Cloche" className="w-8 h-8 object-contain" />
             </div>
           </div>
 
+          {/* Outer: clips overflow, receives wheel + touch events */}
           <div
-            ref={galleryRef}
-            onScroll={handleGalleryScroll}
-            className="relative flex overflow-x-auto gap-4 md:gap-8 pb-8 px-[calc(50vw-150px)] md:px-[calc(50vw-200px)] no-scrollbar snap-x snap-mandatory items-center justify-start cursor-grab active:cursor-grabbing"
+            ref={galleryOuterRef}
+            className="gallery-outer"
           >
-            {galleryItems.map((item, index) => {
-              const isActive = activeGalleryIndex === index;
-              return (
+            {/* Track: translateX-controlled, contains 3 copies of items */}
+            <div
+              ref={galleryTrackRef}
+              className="gallery-track"
+            >
+              {galleryItems.map((item) => (
                 <div
                   key={item.uniqueId}
-                  onClick={() => {
-                    setActiveGalleryIndex(index);
-                    const container = galleryRef.current;
-                    const child = container.children[index];
-                    container.scrollTo({
-                      left: child.offsetLeft - container.clientWidth / 2 + child.clientWidth / 2,
-                      behavior: 'smooth'
-                    });
-                  }}
-                  className={`group relative flex-shrink-0 cursor-pointer snap-center transition-all duration-500 ease-in-out flex flex-col items-center gap-4 ${isActive ? 'w-[300px] md:w-[400px]' : 'w-[200px] md:w-[250px]'}`}
+                  onClick={() => setGalleryPopup({ image: item.image, name: item.name })}
+                  className="group relative flex-shrink-0 cursor-pointer flex flex-col items-center gap-4 w-[200px] md:w-[250px]"
                 >
-                  <div className={`w-full overflow-hidden rounded-[8px] transition-all duration-500 ${isActive ? 'h-[350px] md:h-[450px] border border-[#FDC700] shadow-[0_0_20px_rgba(253,199,0,0.2)]' : 'h-[250px] md:h-[300px] border border-white/20 hover:border-white/50'}`}>
+                  <div className="w-full h-[260px] md:h-[310px] overflow-hidden rounded-[8px] border border-white/20 group-hover:border-[#FDC700]/60 transition-all duration-300 shadow-lg group-hover:shadow-[0_0_16px_rgba(253,199,0,0.15)]">
                     <img
                       src={item.image}
                       className="w-full h-[120%] object-cover object-top transition-transform duration-700 group-hover:scale-110"
                       alt={item.name}
                     />
                   </div>
-                  {/* Name below the card */}
-                  <div className={`transition-all duration-500 overflow-hidden flex items-center justify-center ${isActive ? 'h-[40px] opacity-100' : 'h-0 opacity-0'}`}>
-                    <p className="text-[#FDC700] font-serif text-[20px] md:text-[28px] leading-none text-center whitespace-nowrap">
-                      {item.name}
-                    </p>
-                  </div>
                 </div>
-              );
-            })}
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
+      {/* ── Gallery Popup (compact card) ── */}
+      {galleryPopup && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center"
+          style={{ background: 'rgba(0,0,0,0.70)', backdropFilter: 'blur(6px)' }}
+          onClick={() => setGalleryPopup(null)}
+        >
+          {/* Modal card */}
+          <div
+            className="relative w-[340px] md:w-[380px] rounded-2xl overflow-hidden shadow-2xl"
+            style={{ border: '1px solid rgba(253,199,0,0.3)', background: '#111' }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close button — inside card, top-right */}
+            <button
+              onClick={() => setGalleryPopup(null)}
+              className="absolute top-3 right-3 z-10 flex items-center justify-center w-8 h-8 rounded-full bg-black/70 border border-white/20 text-white hover:bg-[#FDC700] hover:text-black hover:border-[#FDC700] transition-all duration-200"
+              aria-label="Close"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            {/* Image */}
+            <img
+              src={galleryPopup.image}
+              alt={galleryPopup.name}
+              className="w-full h-[260px] object-cover"
+            />
+
+            {/* Name bar */}
+            <div className="px-5 py-4 text-center">
+              <p className="text-[#FDC700] font-serif text-[18px] md:text-[20px] leading-snug">
+                {galleryPopup.name}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

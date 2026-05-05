@@ -27,7 +27,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, .font-serif {
+h1,
+h2,
+h3,
+h4,
+.font-serif {
   font-family: var(--font-serif);
 }
 
@@ -51,7 +55,40 @@ h1, h2, h3, h4, .font-serif {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* ── Gallery: transform-based infinite scroll ─────────────────────────────── */
+
+/* Clips the track, receives pointer events, soft edge fade */
+.gallery-outer {
+  width: 100%;
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  /* Soft vignette so cards fade at viewport edges */
+  mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+}
+
+.gallery-outer:active {
+  cursor: grabbing;
+}
+
+/* The moving row — JS sets transform: translateX() each rAF */
+.gallery-track {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 8px 32px;
+  width: max-content;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .gallery-track { gap: 28px; }
 }
