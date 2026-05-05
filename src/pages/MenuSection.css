@@ -25,16 +25,17 @@ html {
   box-sizing: border-box;
 }
 .menu-title-area-standalone {
-  margin-top: 150px;
-  margin-bottom: 40px;
+  margin-top: 320px;
+  margin-bottom: 60px;
 }
 
 .menu-title {
   display: block;
   font-family: var(--font-judson);
-  font-size: 48px;
+  font-size: 56px;
   color: var(--color-gold-light);
   text-align: center;
+  letter-spacing: 2px;
 }
 
 /* ── Mobile dropdown (restored) ── */
