@@ -40,7 +40,63 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: stretch;
+  align-items: flex-start;
+}
+
+/* ── Left Column ── */
+.contact-section__left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* ── Contact Info Block ── */
+.contact-section__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info__title {
+  font-family: 'Constantia', 'Playfair Display', serif;
+  font-size: 24px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  font-weight: 400;
+}
+
+.contact-info__underline {
+  width: 40px;
+  height: 3px;
+  background-color: #D8AA3E;
+  margin-bottom: 24px;
+}
+
+.contact-info__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.contact-info__icon {
+  color: #D8AA3E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.contact-info__text {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
 }
 
 /* ── Map Column ── */
@@ -49,7 +105,7 @@
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  min-height: 520px;
+  min-height: 320px;
   background: #0d0d0d;
 }
 

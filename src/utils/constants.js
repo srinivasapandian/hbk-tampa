@@ -4,8 +4,8 @@ export const SECONDARY_COLOR = "#000000"; // Black
 export const ACCENT_COLOR = "#FFFFFF"; // White
 
 export const CONTACT_INFO = {
-  phone: "+1 (813) 546-2460",
-  email: "info@hbktampa.com",
-  address: "Tampa, FL, USA",
+  phone: "813-667-6445",
+  email: "hbktampa.com",
+  address: "19430 Bruce B Downs Blvd, Tampa, FL 33647",
   hours: "Mon-Sun: 11:00 AM - 10:00 PM"
 };
