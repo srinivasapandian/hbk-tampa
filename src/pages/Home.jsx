@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import { useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { Utensils, Award, Clock, Users, ArrowRight, ExternalLink } from 'lucide-react';
 import siteData from '../data/siteData.json';
@@ -29,14 +28,15 @@ const galleryItems = [
   ...baseGalleryItems,
   ...baseGalleryItems,
   ...baseGalleryItems,
+  ...baseGalleryItems,
+  ...baseGalleryItems,
 ].map((item, idx) => ({ ...item, uniqueId: `${item.id}-${idx}` }));
 
 const Home = () => {
-  const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState('All Foods');
   const [activeEventId, setActiveEventId] = useState(null);
   const [activeMenuIndex, setActiveMenuIndex] = useState(0);
-  const [activeGalleryIndex, setActiveGalleryIndex] = useState(12);
+  const [activeGalleryIndex, setActiveGalleryIndex] = useState(15);
   const [isMenuScrolling, setIsMenuScrolling] = useState(false);
   const galleryRef = useRef(null);
   const menuRef = useRef(null);
@@ -63,6 +63,26 @@ const Home = () => {
   const handleGalleryScroll = () => {
     if (!galleryRef.current) return;
     const container = galleryRef.current;
+    
+    // Infinite loop logic
+    const { scrollLeft, scrollWidth, clientWidth } = container;
+    
+    // Calculate the width of one full cycle (baseGalleryItems.length items)
+    // We use the distance between item 0 and item 5 to get the exact width including gaps
+    if (container.children.length > baseGalleryItems.length) {
+      const cycleWidth = container.children[baseGalleryItems.length].offsetLeft - container.children[0].offsetLeft;
+      
+      if (scrollLeft < cycleWidth) {
+        // Jump forward by 2 cycles to stay in the middle
+        container.scrollLeft = scrollLeft + cycleWidth * 2;
+        return;
+      } else if (scrollLeft > cycleWidth * 4) {
+        // Jump backward by 2 cycles
+        container.scrollLeft = scrollLeft - cycleWidth * 2;
+        return;
+      }
+    }
+
     const containerCenter = container.scrollLeft + container.clientWidth / 2;
 
     let closestIndex = activeGalleryIndex;
@@ -392,10 +412,9 @@ const Home = () => {
               return (
                 <div
                   key={blog.id}
-                  onClick={() => navigate(`/${blog.id}`)}
                   onMouseEnter={() => setActiveEventId(blog.id)}
                   onMouseLeave={() => setActiveEventId(null)}
-                  className="w-[315px] h-[448px] p-[5px] opacity-100 relative overflow-hidden rounded-[20px] border border-white/20 cursor-pointer shadow-2xl mx-auto"
+                  className="w-[315px] h-[448px] p-[5px] opacity-100 relative overflow-hidden rounded-[20px] border border-white/20 shadow-2xl mx-auto"
                 >
                   {/* Background Image */}
                   <img
@@ -414,10 +433,7 @@ const Home = () => {
                     </p>
                   </div>
 
-                  {/* External Link Icon */}
-                  <div className="absolute bottom-6 right-6 z-10">
-                    <ExternalLink className={`w-5 h-5 transition-colors ${isActive ? 'text-[#FFD700]' : 'text-white/40'}`} />
-                  </div>
+                  {/* External Link Icon Removed */}
                 </div>
               );
             })}
@@ -438,7 +454,7 @@ const Home = () => {
           <div
             ref={galleryRef}
             onScroll={handleGalleryScroll}
-            className="relative flex overflow-x-auto gap-4 md:gap-8 pb-8 px-[calc(50vw-150px)] md:px-[calc(50vw-200px)] no-scrollbar snap-x snap-mandatory items-center justify-start scroll-smooth"
+            className="relative flex overflow-x-auto gap-4 md:gap-8 pb-8 px-[calc(50vw-150px)] md:px-[calc(50vw-200px)] no-scrollbar snap-x snap-mandatory items-center justify-start cursor-grab active:cursor-grabbing"
           >
             {galleryItems.map((item, index) => {
               const isActive = activeGalleryIndex === index;
