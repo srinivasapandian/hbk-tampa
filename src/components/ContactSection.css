@@ -40,7 +40,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 /* ── Left Column ── */
@@ -106,6 +106,7 @@
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
   min-height: 320px;
+  flex: 1; /* Make it grow to fill space */
   background: #0d0d0d;
 }
 
