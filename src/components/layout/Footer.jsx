@@ -38,7 +38,6 @@ const Footer = () => {
               <li><a href="/#about-us" className="hover:text-[#FFD700] transition-colors">About Us</a></li>
               <li><a href="/#menu" className="hover:text-[#FFD700] transition-colors">Menu</a></li>
               <li><a href="/#services" className="hover:text-[#FFD700] transition-colors">Catering</a></li>
-              <li><a href="/#events" className="hover:text-[#FFD700] transition-colors">Events</a></li>
               <li><a href="/#gallery" className="hover:text-[#FFD700] transition-colors">Buffet</a></li>
               <li><a href="/#contact-us" className="hover:text-[#FFD700] transition-colors">Contact Us</a></li>
             </ul>
@@ -54,7 +53,6 @@ const Footer = () => {
               <li>Take away</li>
               <li>Delivery</li>
               <li>Catering</li>
-              <li>Private Events</li>
             </ul>
           </div>
 

@@ -2,7 +2,6 @@ import { motion } from 'motion/react';
 import { useState, useEffect, useRef } from 'react';
 import { Utensils, Award, Clock, Users, ArrowRight, ExternalLink } from 'lucide-react';
 import siteData from '../data/siteData.json';
-import blogData from '../data/blogData.json';
 import { Button } from '../components/common/Button';
 import { Card } from '../components/common/Card';
 
@@ -34,7 +33,6 @@ const galleryItems = [
 
 const Home = () => {
   const [activeCategory, setActiveCategory] = useState('All Foods');
-  const [activeEventId, setActiveEventId] = useState(null);
   const [activeMenuIndex, setActiveMenuIndex] = useState(0);
   const [activeGalleryIndex, setActiveGalleryIndex] = useState(15);
   const [isMenuScrolling, setIsMenuScrolling] = useState(false);
@@ -395,51 +393,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Events */}
-      <section id="events" className="py-24 bg-black">
-        <div className="w-full px-1 md:px-2">
-          <div className="flex items-end gap-2 mb-16">
-            <h2 className="title-with-line text-4xl md:text-6xl font-serif">Events</h2>
-            <div className="flex-shrink-0">
-              <img src={vector} alt="Cloche" className="w-9 h-9 object-contain" />
-            </div>
-          </div>
 
-          <div className="max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[6px] md:gap-[8px]">
-            {blogData.map((blog) => {
-              const isActive = activeEventId === blog.id;
-
-              return (
-                <div
-                  key={blog.id}
-                  onMouseEnter={() => setActiveEventId(blog.id)}
-                  onMouseLeave={() => setActiveEventId(null)}
-                  className="w-[315px] h-[448px] p-[5px] opacity-100 relative overflow-hidden rounded-[20px] border border-white/20 shadow-2xl mx-auto"
-                >
-                  {/* Background Image */}
-                  <img
-                    src={blog.image}
-                    alt={blog.title}
-                    className={`absolute inset-[5px] w-[calc(100%-10px)] h-[calc(100%-10px)] object-cover rounded-[16px] transition-transform duration-700 ${isActive ? 'scale-110' : 'scale-100'}`}
-                  />
-
-                  {/* Glass Cover Overlay (Left Side) */}
-                  <div className={`absolute top-[5px] bottom-[5px] left-[5px] w-1/2 bg-white/5 backdrop-blur-md border-r border-white/10 p-6 flex flex-col justify-between rounded-l-[16px] transition-opacity duration-500 ${isActive ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
-                    <h4 className="text-2xl font-serif leading-tight text-white">
-                      {blog.title}
-                    </h4>
-                    <p className="text-sm font-serif text-white/60">
-                      {blog.date}
-                    </p>
-                  </div>
-
-                  {/* External Link Icon Removed */}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
       {/* Gallery Section */}
       <section id="gallery" className="py-24 bg-black">
