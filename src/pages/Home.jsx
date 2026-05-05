@@ -5,6 +5,7 @@ import { Utensils, Award, Clock, Users, ArrowRight, ExternalLink, X } from 'luci
 import siteData from '../data/siteData.json';
 import { Button } from '../components/common/Button';
 import { Card } from '../components/common/Card';
+import ContactSection from '../components/ContactSection';
 
 import gallery1 from '../asserts/gallery1.jpg';
 import gallery2 from '../asserts/gallery2.jpg';
@@ -559,6 +560,9 @@ const Home = () => {
           </div>
         </div>
       )}
+
+      {/* Contact Us Section — between Gallery and Footer */}
+      <ContactSection />
     </div>
   );
 };
