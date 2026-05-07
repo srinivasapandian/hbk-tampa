@@ -41,8 +41,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`absolute top-0 left-0 w-full z-50 px-6 transition-all duration-500 ${scrolled ? 'py-2 bg-black/70 backdrop-blur-lg' : 'py-3 bg-transparent'}`}>
-      <div className="max-w-[1200px] mx-auto w-full flex flex-col items-center relative z-[60]">
+    <nav className={`absolute top-0 left-0 w-full z-[1000] px-6 transition-all duration-500 ${scrolled ? 'py-2 bg-black/70 backdrop-blur-lg' : 'py-3 bg-transparent'}`}>
+      <div className="max-w-[1200px] mx-auto w-full flex flex-col items-center relative z-[1001]">
         {/* Mobile View Top Bar */}
         <div className={`w-full flex flex-col md:hidden relative items-center transition-all duration-500 ${scrolled ? 'h-14' : 'pt-6 pb-2'}`}>
           <div className="flex w-full items-center justify-center relative">
@@ -145,7 +145,7 @@ const Navbar = () => {
             animate={{ opacity: 1, height: '100vh' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-            className="fixed top-0 left-0 w-full bg-black/95 backdrop-blur-xl z-50 flex flex-col items-center justify-center gap-8 lg:hidden overflow-hidden"
+            className="fixed top-0 left-0 w-full bg-black/95 backdrop-blur-xl z-[1000] flex flex-col items-center justify-center gap-8 lg:hidden overflow-hidden"
           >
             {navLinks.map((link, index) => (
               <motion.div
