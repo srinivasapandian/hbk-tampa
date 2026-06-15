@@ -130,9 +130,9 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <button className="text-[20px] leading-[100%] tracking-[0] font-normal [font-family:'Bellefair',serif] text-white px-4 py-1.5 rounded-full border border-[#D8AA3E] hover:bg-[#D8AA3E]/10 transition-colors">
+            <a href="https://hbk-tampa.maghil.com/restaurant/hbk-tampa/menu/Pickup" target="_blank" rel="noopener noreferrer" className="text-[20px] leading-[100%] tracking-[0] font-normal [font-family:'Bellefair',serif] text-white px-4 py-1.5 rounded-full border border-[#D8AA3E] hover:bg-[#D8AA3E]/10 transition-colors inline-block">
               Order Online
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -169,9 +169,9 @@ const Navbar = () => {
               transition={{ delay: 0.2 + navLinks.length * 0.1 }}
               className="mt-4"
             >
-              <button className="bg-[#FFD700] text-black px-10 py-4 rounded-md text-sm font-bold uppercase tracking-widest">
+              <a href="https://hbk-tampa.maghil.com/restaurant/hbk-tampa/menu/Pickup" target="_blank" rel="noopener noreferrer" className="bg-[#FFD700] text-black px-10 py-4 rounded-md text-sm font-bold uppercase tracking-widest inline-block text-center">
                 Order Online
-              </button>
+              </a>
             </motion.div>
           </motion.div>
         )}

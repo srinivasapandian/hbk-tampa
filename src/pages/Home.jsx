@@ -234,12 +234,12 @@ const Home = () => {
             </h1>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mt-2">
-              <button className="group flex items-center gap-2 rounded-full border border-[#D8AA3E] bg-black/35 px-4 md:px-5 py-2 md:py-2 font-['Playfair_Display'] text-base md:text-[16px] leading-none text-white/95 hover:bg-black/50 transition-all">
-                <span>Reserve Your Table</span>
+              <a href="https://hbk-tampa.maghil.com/restaurant/hbk-tampa/menu/Pickup" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 rounded-full border border-[#D8AA3E] bg-black/35 px-4 md:px-5 py-2 md:py-2 font-['Playfair_Display'] text-base md:text-[16px] leading-none text-white/95 hover:bg-black/50 transition-all">
+                <span>Order Online</span>
                 <span className="flex items-center justify-center rounded-full border border-[#D8AA3E] w-6 h-6 md:w-7 md:h-7">
                   <ArrowRight className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#E1B443]" />
                 </span>
-              </button>
+              </a>
 
               <div
                 className="hidden md:block w-[12px] h-[92px] bg-center bg-contain bg-no-repeat opacity-90"
@@ -265,7 +265,7 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section id="about-us" className="py-24 px-6 max-w-7xl mx-auto">
+      <section id="about-us" className="py-20 px-6 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="relative overflow-visible">
             {/* Decorative box behind */}
@@ -328,7 +328,7 @@ const Home = () => {
       </section>
 
       {/* Menu Section */}
-      <section id="menu" className="py-24 bg-black">
+      <section id="menu" className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-8">
             <div className="flex items-start justify-between gap-6 mb-8">
@@ -439,7 +439,7 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section id="services" className="py-24 px-6">
+      <section id="services" className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-5 mb-14">
             <div className="flex flex-row items-end justify-center gap-4">
@@ -460,17 +460,17 @@ const Home = () => {
               {siteData.features.map((feature, idx) => (
                 <div
                   key={idx}
-                  className="flex flex-col items-center text-center p-7 md:p-8 text-black transition-all duration-500 hover:bg-black/5"
+                  className="group flex flex-col items-center text-center p-7 md:p-8 text-black transition-all duration-500 hover:bg-black cursor-pointer"
                 >
                   <div className="h-14 w-14 md:h-16 md:w-16 mb-4 flex items-center justify-center">
                     <img
                       src={feature.icon}
                       alt={feature.title}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain transition-all duration-500 group-hover:invert"
                     />
                   </div>
-                  <h4 className="text-xl md:text-2xl font-serif mb-3">{feature.title}</h4>
-                  <p className="text-xs md:text-sm text-black leading-relaxed font-serif max-w-[190px]">
+                  <h4 className="text-xl md:text-2xl font-serif mb-3 transition-colors duration-500 group-hover:text-[#FDC700]">{feature.title}</h4>
+                  <p className="text-xs md:text-sm text-black leading-relaxed font-serif max-w-[190px] transition-colors duration-500 group-hover:text-white/90">
                     {feature.description}
                   </p>
                 </div>
@@ -483,7 +483,7 @@ const Home = () => {
 
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-24 bg-black overflow-hidden">
+      <section id="gallery" className="py-20 bg-black overflow-hidden">
         <div className="w-full">
           <div className="flex items-end gap-4 mb-20 justify-center px-4">
             <h2 className="title-with-line text-4xl md:text-6xl font-serif tracking-widest text-center">Gallery</h2>
